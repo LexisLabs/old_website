@@ -29,6 +29,12 @@ hr {
   border-width: 10px;
 }
 
+/* Brand colors */
+
+.dkan-blue {
+  background: #0077C0;
+}
+
 /* General classes */
 
 .lead, .intro {
@@ -44,7 +50,9 @@ hr {
   margin-top: 30px;
 }
 .icon-big {
+  color: #0077C0;
   font-size: 120px;
+  margin-top: 20px;
 }
 
 /* Navbar */
@@ -128,12 +136,14 @@ hr {
   }
 }
 
-/* Sessions */
+/* Brand */
 
-.sessions .fa {
-	color: #0077C0;
-	font-size: 100px;
+.brand img {
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  margin-bottom: 20px;
   margin-top: 20px;
+  max-width: 150px;
 }
 
 /* Sections */
@@ -234,5 +244,4 @@ a.btn-outline-inverse {
 a.btn-outline-inverse:hover {
     color: #fff;
     background-color: #0D7DC1;
-
 }
