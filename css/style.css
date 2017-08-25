@@ -23,8 +23,8 @@ a, a:visited {
 	color: #0077C0;
 }
 hr {
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   border-color: #0077C0;
   border-width: 10px;
 }
@@ -161,7 +161,6 @@ label {
   color: #fff;
   background-color: #0077C0;
   margin-top: 40px;
-  margin-bottom: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -169,19 +168,15 @@ label {
   color: #fff;
 }
 .section-2 {
-  background-color: #f1f1f1;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  background-color: #fff;
+  padding-bottom: 20px;
+  padding-top: 30px;
 }
 .section-3 {
   background-color: #212121;
   background-image: url('../img/bg.png');
   background-position: right bottom;
   background-repeat: no-repeat;
-  margin-bottom: 0px;
-  margin-top: 0px;
   padding-bottom: 40px;
   padding-top: 40px;
 }
@@ -201,7 +196,6 @@ label {
   color: #fff;
   background-color: #0077C0;
   margin-top: 40px;
-  margin-bottom: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -242,7 +236,6 @@ label {
 /* Footer */
 
 .footer {
-  margin-top: 40px;
 	padding-bottom: 40px;
 	padding-top: 40px;
   background-color: #0077C0;
