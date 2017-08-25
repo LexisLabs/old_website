@@ -35,6 +35,15 @@ hr {
   background: #0077C0;
 }
 
+/* Forms */
+
+label {
+  display: block;
+}
+.form-control {
+  margin-bottom: 10px;
+}
+
 /* General classes */
 
 .lead, .intro {
@@ -148,6 +157,17 @@ hr {
 
 /* Sections */
 
+.section-1 {
+  color: #fff;
+  background-color: #0077C0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.section-1 h2, .section-1 p.lead, .section-1 a, .section-1 a:visited, .section-1 a:hover {
+  color: #fff;
+}
 .section-2 {
   background-color: #f1f1f1;
   margin-bottom: 0px;
@@ -186,6 +206,9 @@ hr {
   padding-bottom: 40px;
 }
 .features p.lead, .features h2 {
+  color: #fff;
+}
+.features a, .features a:visited, .features a:hover {
   color: #fff;
 }
 
@@ -238,14 +261,14 @@ hr {
 
 /* Buttons */
 
-a.btn-outline-inverse {
+a.btn-outline-inverse, .btn-outline-inverse {
   color: #fff;
   background-color: #0077C0;
-  border: 5px #dce4ef solid;
+  border: 3px #dce4ef solid;
   font-weight: 900;
   padding: 15px;
 }
-a.btn-outline-inverse:hover {
+a.btn-outline-inverse:hover, .btn-outline-inverse:hover {
     color: #fff;
     background-color: #0D7DC1;
 }
