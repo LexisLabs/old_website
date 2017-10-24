@@ -19,3 +19,10 @@
       <priority>.9</priority>
    </url>
 </urlset>
+   <url>
+      <loc>https://getdkan.org/community/</loc>
+      <lastmod>2017-10-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>.9</priority>
+   </url>
+</urlset>
