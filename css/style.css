@@ -67,6 +67,9 @@ label {
   margin-top: 30px;
   font-size: 100px;
 }
+.fa.big {
+  font-size: 120px;
+}
 
 /* Navbar */
 
@@ -132,7 +135,12 @@ label {
   padding: 15px 30px;
   font-size: 20px;
 }
-
+.bs-docs-masthead a, .bs-docs-masthead a:visited {
+  text-decoration: underline;
+}
+.bs-docs-masthead a:hover {
+  text-decoration: none;
+}
 @media (min-width: 480px) {
   .bs-docs-masthead .btn {
     width: auto;
