@@ -279,3 +279,6 @@ a.btn-outline-inverse:hover, .btn-outline-inverse:hover {
     color: #fff;
     background-color: #0D7DC1;
 }
+.block {
+  display: block;
+}
